@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 body {
     background-color:#708090;
 }
@@ -6,4 +7,26 @@ canvas
 	background-color: #eee;
 	display:block;
 	margin:0 auto;
+}
+.login{
+	text-align: center;
+}
+.login-insta{
+	min-width: 250px;
+	background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  font-family: 'Muli', sans-serif;
+font-size: 20px;
+  color: black;
+}
+.outer-ad-box{
+	align-content: center;
+}
+.add-box{
+	/* width: 950px; */
+	min-height: 140px; 
+	border: 1px solid black;
+	margin-top: 10px;
+	background: url("../images/ad.webp") fixed no-repeat;
+	
 }
